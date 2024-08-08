@@ -25,7 +25,7 @@ To view or edit the project, you'll need:
 
 1. Clone the repository:
    ```bash
-   git clone [https://github.com/TanvirMain49/g3-architexct-webpage.git]
+   https://github.com/TanvirMain49/g3-architexct-webpage.git
 
 ## File Structure
 
