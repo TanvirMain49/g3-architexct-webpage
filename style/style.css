@@ -71,10 +71,16 @@ main > section{
     list-style: none;
     margin-right: 30px;
     
+    
 }
 
 .nav-link{
     text-decoration: none;
+    color: black;
+    cursor: pointer;
+}
+.icon{
+    display: hide;
 }
 
 .navbar, .banner{
@@ -91,6 +97,7 @@ main > section{
 }
 
 .banner-title{
+    margin-top: 40px;
     font-weight: 700;
     font-size: 4rem;
 }
@@ -273,8 +280,17 @@ footer{
 /* responsive media quary*/
 @media screen and (max-width:576px) {
 
-    .navbar, .nav-links, .teams, .features{
+    .nav-links, .teams, .features{
         flex-direction: column;
+    }
+    .nav-links{
+        display: none;
+    }
+    .icon{
+        margin: 40px 20px;
+    }
+    .brand{
+        font-size: 36px;
     }
 
     .teams-img-container{
